@@ -1,10 +1,11 @@
 import React from 'react';
+import styles from '../styles/Resume.module.css';
 
 const Resume: React.FC = () => {
     return (
-        <div>
-            <h2>My Resume</h2>
-            <a href="public\Resume.pdf" download>Download Resume</a>
+        <div className={styles.resumeContainer}>
+            <h2 className={styles.resumeHeader}>My Resume</h2>
+            <a className={styles.resumeContent} href="public\Resume.pdf" download>Download Resume</a>
         </div>
     );
 }

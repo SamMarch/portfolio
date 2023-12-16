@@ -1,0 +1,14 @@
+.resumeContainer {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.resumeHeader {
+    font-size: 2em;
+    color: #333;
+}
+
+.resumeContent {
+    font-size: 1.2em;
+    color: #666;
+}

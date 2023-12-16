@@ -1,0 +1,14 @@
+.aboutContainer {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.aboutHeader {
+    font-size: 2em;
+    color: #333;
+}
+
+.aboutContent {
+    font-size: 1.2em;
+    color: #666;
+}

@@ -3,27 +3,23 @@
     background-color: #f9f9f9;
 }
 
-.contactForm {
-    display: flex;
-    flex-direction: column;
+.contactHeader {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contactList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contactItem {
+    margin-bottom: 10px;
 }
 
 .contactLabel {
     font-size: 1.2em;
     color: #333;
-    margin-bottom: 5px;
-}
-
-.contactInput {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-}
-
-.contactButton {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+    margin-right: 5px;
 }
